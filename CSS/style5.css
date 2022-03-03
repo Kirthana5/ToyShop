@@ -1,0 +1,116 @@
+header
+{
+	  background-image: linear-gradient(to bottom right,#ccccff,#00ff99);
+    margin-top: 15px;
+    height: 100px;  
+    border-style: inset;
+}
+h1
+{
+	-webkit-text-fill-color: #ff0066; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+	margin-top: 25px;
+	text-align: center;
+    font-variant: small-caps;
+    font-size:50px;
+    font-style: italic;
+
+}
+h2
+{
+    -webkit-text-fill-color: #00008b; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+     margin-top: 25px;
+     margin-left: 90px;
+     text-align: left;
+     font-variant: small-caps;
+     font-size: 40px;
+     font-style: bold;
+
+}
+nav
+{
+  position: fixed;
+  margin-left: 20px;
+	float: left;
+}
+.c1,.c2,.c3,.c4,.c5
+{
+	  vertical-align: baseline;
+	  display: inline-block;
+   	border-radius: 30px;
+  	border-style: outset;
+  	background-image: linear-gradient(to top right,#66ffff,#66ffff);
+  	padding: 10px;
+  	transition: 0.2s;  
+
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover
+{
+	  opacity: 1;
+    transform: translateX(5px);
+}
+a:link
+{
+  color:#0000e6; /*Blue*/
+}
+a:hover
+{
+  color: #ff0066;/*pink*/
+}
+
+a:active
+{
+  color:  #808080;/*gray*/
+}
+#i1,#i2,#i3
+{
+  margin-top: 30px;
+  margin-left: 90px;
+  width:300px;
+  height: 200px;
+  float: left;
+  transition: 0.3s;
+}
+#i1:hover,#i2:hover,#i3:hover
+{
+  opacity: 5;
+  transform: translateY(-15px);
+}
+#ii1,#ii2,#ii3,#ii4,#ii5,#ii6
+{
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 60px;
+  width:200px;
+  height: 100px;
+  float: left;
+  transition: 0.3s;
+}
+#ii1:hover,#ii2:hover,#ii3:hover,#ii4:hover,#ii5:hover,#ii6:hover
+{
+  opacity: 5;
+  transform: translateY(-15px);
+}
+.aboutpara
+{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30px;
+  color: #000000;
+  width: 70%;
+  background-color: #00ffcc;
+  text-align: justify;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 15px;
+}
+ul
+{
+  list-style-type: none;
+}
